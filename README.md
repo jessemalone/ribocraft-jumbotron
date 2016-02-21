@@ -1,4 +1,4 @@
-Sends raw image data from a hopefully 1-bit (monochrome) PCX image to a listening UDP port
+Sends raw image data from a hopefully 1-bit (monochrome) PCX image to a listening UDP port. Intent is to set contents of an 8x5 minecraft jumbotron.
 
 Usage:
 
