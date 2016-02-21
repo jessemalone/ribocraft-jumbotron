@@ -12,16 +12,13 @@ data = image.getdata()
 
 output = ""
 value = 0
-i = 0
-for bit in data:
+for i, bit in enumerate(data):
 	value = (value << 1) | bit
-	if i == 7:
+	if (i + 1) % 8 == 0:
 		output = output + chr(value)
 		print str(bit) + ":" + bin(value) + ":" + str(ord(chr(value)))  + ":" + output
 		value = 0
-		i = 0
-	else:
-		i = i + 1
+	else:		
 		print str(bit) + ":" + bin(value)
 
 	
