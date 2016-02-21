@@ -1,5 +1,4 @@
-Sends image data from a 8x5 1-bit (monochrome) PCX image to a 8x5 redstone lamp
-screen in minecraft
+Sends raw image data from a hopefully 1-bit (monochrome) PCX image to a listening UDP port
 
 Usage:
 
